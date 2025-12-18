@@ -29,5 +29,6 @@ const onehour = 3600 == 60 * 60
 const oneday = 24 * 3600
 const onemonth = 30 * 24 * 3600
 const oneseason = 3 * 30 * 24 * 3600
-let oneyear = 365 * 3 * 30 * 24 * 3600
+let oneyear = 365 * 30 * 24 * 3600
+var lightyear = 365 * 30 * 24 * 3600 * lightspeed
 }
