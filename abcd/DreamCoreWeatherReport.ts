@@ -1,7 +1,3 @@
-// ==============================================
-//  WEATHER REPORT STAND: DREAMCORE MODULE
-// ==============================================
-
 class DreamCoreWeatherReport {
   // Stand Properties with Dream Variant
   readonly name = 'Weather Report ∞ DreamCore';
