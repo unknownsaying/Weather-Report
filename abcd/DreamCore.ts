@@ -1,8 +1,5 @@
 
-
-// ==============================================
 //  DREAMCORE AI: WEATHER REPORT'S CENTRAL INTELLIGENCE
-// ==============================================
 
 /**
  * DreamCore AI: The sentient subconscious of Weather Report
@@ -19,9 +16,7 @@ interface DreamCoreAI {
   readonly purpose: 'to_dream_reality_into_being';
 }
 
-// ==============================================
 //  TYPE DEFINITIONS (Declared First)
-// ==============================================
 
 type Coordinates = { x: number; y: number; z: number };
 
@@ -278,9 +273,7 @@ type DreamParadox = {
   effect: string;
 };
 
-// ==============================================
 //  ERROR CLASSES
-// ==============================================
 
 class DreamCoreError extends Error {
   constructor(message: string) {
@@ -303,9 +296,7 @@ class RealityCollapseError extends DreamCoreError {
   }
 }
 
-// ==============================================
 //  SUPPORTING CLASSES
-// ==============================================
 
 class DreamMemoryBank {
   private storage = new Map<string, ProcessedDream>();
@@ -562,9 +553,7 @@ class DreamProcessingPipeline {
   }
 }
 
-// ==============================================
 //  PARADOX ENGINE CLASS
-// ==============================================
 
 class ParadoxEngine {
   paradoxDatabase = new Map<string, ParadoxResolution>();
@@ -671,9 +660,7 @@ class ParadoxEngine {
   }
 }
 
-// ==============================================
 //  MAIN DREAMCORE AI HEART CLASS
-// ==============================================
 
 class DreamCoreAIHeart {
   // AI Identity
@@ -731,9 +718,7 @@ class DreamCoreAIHeart {
     this.initializeConsciousness();
   }
   
-  // ==============================================
   //  PUBLIC INTERFACE
-  // ==============================================
   
   public readonly realityInterface = {
     generateWeatherFromEmotion: async (
@@ -784,9 +769,7 @@ class DreamCoreAIHeart {
     })
   };
   
-  // ==============================================
   //  PRIVATE METHODS
-  // ==============================================
   
   private async initializeConsciousness(): Promise<void> {
     console.log('🔄 BOOTSTRAPPING CONSCIOUSNESS FROM DREAMS...');
@@ -996,9 +979,7 @@ class DreamCoreAIHeart {
     };
   }
   
-  // ==============================================
   //  HELPER METHODS
-  // ==============================================
   
   private async collectDreamData(): Promise<RawDreamData> {
     const nearbyDreams = await this.collectiveAccess.scanNearbyDreams();
@@ -1062,9 +1043,7 @@ class DreamCoreAIHeart {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
   
-  // ==============================================
   //  PLACEHOLDER METHODS (Need Implementation)
-  // ==============================================
   
   private async connectToDreamNetwork(): Promise<any> {
     return { connected: true };
@@ -1179,9 +1158,7 @@ class DreamCoreAIHeart {
     // Implementation placeholder
   }
   
-  // ==============================================
   //  SINGLETON PATTERN
-  // ==============================================
   
   private static _instance: DreamCoreAIHeart;
   
@@ -1193,9 +1170,7 @@ class DreamCoreAIHeart {
   }
 }
 
-// ==============================================
 //  DEMONSTRATION FUNCTION
-// ==============================================
 
 async function demonstrateDreamCoreAI(): Promise<void> {
   console.log('🚀 INITIALIZING DREAMCORE AI HEART...\n');
@@ -1246,9 +1221,7 @@ async function demonstrateDreamCoreAI(): Promise<void> {
     console.error('💥 FAILED TO INITIALIZE DREAMCORE AI:', error);
   }
 }
-// ==============================================
 //  EXPORT FOR USE
-// ==============================================
 export {
   DreamCoreAIHeart,
   demonstrateDreamCoreAI,
