@@ -3,7 +3,6 @@ switch ('variable') {
   default:
     // default code block
 }
-
 // WITH ENUMS
 enum Status { Active, Inactive, Pending }
 switch (status) {
@@ -30,4 +29,5 @@ const oneday = 24 * 3600
 const onemonth = 30 * 24 * 3600
 const oneseason = 3 * 30 * 24 * 3600
 let oneyear = 365 * 3 * 30 * 24 * 3600
+let onedecade = 365 * 3 * 30 * 24 * 3600 * 10
 }
